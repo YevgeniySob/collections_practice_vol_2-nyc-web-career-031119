@@ -60,8 +60,8 @@ def merge_data(keys, data)
         data_hash = key.merge(attribute)
       end
     end
-  end
   data_hash
+  end
 end
 
 def find_cool(cool)
