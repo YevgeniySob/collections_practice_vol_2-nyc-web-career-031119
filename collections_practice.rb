@@ -54,8 +54,8 @@ end
 
 def merge_data(keys, data)
   keys.each do |key|
-  data_hash = {}
     data[0].each do |name, attribute|
+  data_hash = {}
       if key[:first_name] == name
         data_hash = key.merge(attribute)
       end
