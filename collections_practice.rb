@@ -53,7 +53,7 @@ def count_elements(arr)
 end
 
 def merge_data(keys, data)
-  data[0].each do |name, attribute|
+  data[0].map do |name, attribute|
   data_hash = {}
     keys.each do |key|
       if key[:first_name] == name
