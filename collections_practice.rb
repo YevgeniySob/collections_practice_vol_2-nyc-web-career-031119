@@ -64,18 +64,6 @@ def merge_data(keys, data)
   data_hash
 end
 
-# def merge_data(keys, data)
-#   data[0].map do |name, attribute|
-#   data_hash = {}
-#     keys.each do |key|
-#       if key[:first_name] == name
-#         data_hash = key.merge(attribute)
-#       end
-#     end
-#   data_hash
-#   end
-# end
-
 def find_cool(cool)
   
 end
