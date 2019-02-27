@@ -69,7 +69,7 @@ def find_cool(arr)
     if ele[:temperature] == "cool"
       ele
     end
-  end
+  end.compact
 end
 
 def organize_schools(schools)
