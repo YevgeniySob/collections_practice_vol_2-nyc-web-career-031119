@@ -73,7 +73,16 @@ def find_cool(arr)
 end
 
 def organize_schools(schools)
-  
+  my_hash = {}
+  schools.each do |name, location|
+    location.values.each do |city|
+      if !my_hash.include?(city)
+        my_hash[city] = []
+      end
+      my_hash[city] << name
+    end
+  end
+  my_hash
 end
 
 
