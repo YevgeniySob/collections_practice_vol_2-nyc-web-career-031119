@@ -74,7 +74,7 @@ end
 #     end
 #   data_hash
 #   end
-end
+# end
 
 def find_cool(cool)
   
