@@ -67,7 +67,7 @@ end
 def find_cool(arr)
   arr.map do |ele|
     if ele[:temperature] == "cool"
-      return ele
+      ele
     end
   end
 end
