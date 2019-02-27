@@ -64,8 +64,12 @@ def merge_data(keys, data)
   data_hash
 end
 
-def find_cool(cool)
-  
+def find_cool(arr)
+  arr.map do |ele|
+    if ele[:temperature] == "cool"
+      return ele
+    end
+  end
 end
 
 def organize_schools(schools)
